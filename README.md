@@ -81,7 +81,7 @@ A content-based recommendation system that suggests music tracks based on user p
 ## Recommendation Algorithm 🧠
 The system uses cosine similarity to match audio features:
 
-\[ \text{Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|} \]
+Similarity = (A · B) / (|A| |B|)
 
 **Audio Features Analyzed**:
 1. Acousticness
